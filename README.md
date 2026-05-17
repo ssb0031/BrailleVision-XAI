@@ -10,7 +10,7 @@ BrailleVision-XAI is a research-oriented deep learning framework designed for Br
 
 This repository documents the progressive evolution of a multi-stage Braille recognition system combining:
 
-- YOLOv11-based Braille detection
+- YOLOv8-based Braille detection
 - Proposal refinement using sliding-window analysis
 - AttentionCNN-based grid classification
 - Explainable AI visualization pipelines
@@ -80,7 +80,7 @@ The primary pipeline explored throughout this project is:
 ```text
 Input Source
     ↓
-YOLOv11 Detection
+YOLOv8 Detection
     ↓
 Proposal Refinement
     ↓
@@ -130,7 +130,7 @@ Structured Evaluation & Benchmarking
 
 ## Core Features
 
-- YOLOv11-based Braille cell localization
+- YOLOv8-based Braille cell localization
 - Sliding-window proposal refinement
 - Adaptive row clustering and spacing estimation
 - Soft-NMS overlap preservation
