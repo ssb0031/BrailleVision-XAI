@@ -1,0 +1,21 @@
+ABLATION & MULTI-METHOD BENCHMARKING FRAMEWORK
+
+PURPOSE:
+This notebook evaluates multiple Braille decoding strategies under a unified benchmarking pipeline.
+
+MAIN CONTRIBUTIONS:
+• Five-method comparison framework
+• Automated Markdown reporting
+• Structured logging hierarchy
+• Success-rate benchmarking
+• Error-resilient batch execution
+• Comparative decoding analysis
+
+WHY THIS NOTEBOOK EXISTS:
+Individual improvements are difficult to validate without controlled comparisons. This notebook provides a reproducible evaluation framework for measuring the effectiveness of different decoding strategies.
+
+STATUS:
+Experimental benchmarking and evaluation framework.
+
+PIPELINE ROLE:
+Provides systematic comparison and reproducibility analysis across pipeline variants.

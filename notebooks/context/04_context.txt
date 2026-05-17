@@ -1,0 +1,21 @@
+ATTENTIONCNN + EXPLAINABLE AI PIPELINE
+
+PURPOSE:
+This notebook integrates explainable AI mechanisms into the Braille recognition framework.
+
+MAIN CONTRIBUTIONS:
+• AttentionCNN verification pipeline
+• Per-character explainability generation
+• Dot-level confidence distributions
+• Heatmap visualization
+• Natural-language explanation generation
+• Sentence-level agreement tracking
+
+WHY THIS NOTEBOOK EXISTS:
+Assistive AI systems require transparency and interpretability, especially for accessibility-focused applications. This notebook investigates interpretable verification mechanisms for Braille decoding reliability.
+
+STATUS:
+Primary explainability and verification framework.
+
+PIPELINE ROLE:
+Acts as the explainability and confidence validation stage of the system.

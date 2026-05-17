@@ -1,0 +1,21 @@
+ADVANCED DETECTION & GRID ALIGNMENT PIPELINE
+
+PURPOSE:
+This notebook introduces spatial correction mechanisms for improving Braille cell consistency and detection robustness.
+
+MAIN CONTRIBUTIONS:
+• YOLOv8 tiled inference pipeline
+• Soft-NMS overlap preservation
+• RPN-based Braille grid snapping
+• Gap-aware sentence reconstruction
+• Interactive TTS reading controls
+• Method comparison visualization
+
+WHY THIS NOTEBOOK EXISTS:
+Standard object detection pipelines struggle under dense Braille layouts and overlapping dot regions. This notebook explores grid-constrained decoding strategies to improve structural consistency.
+
+STATUS:
+Core spatial refinement and detection optimization stage.
+
+PIPELINE ROLE:
+Transforms raw object detections into structurally aligned Braille representations.

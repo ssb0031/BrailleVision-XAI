@@ -1,0 +1,21 @@
+SENTENCE-LEVEL BRAILLE RECONSTRUCTION & NLP PIPELINE
+
+PURPOSE:
+This notebook extends foundational Braille detection into sentence-aware reconstruction and semantic correction.
+
+MAIN CONTRIBUTIONS:
+• KMeans-based row clustering
+• Adaptive spacing estimation
+• SymSpell dictionary correction
+• Transformer-based grammar refinement
+• Cognitive/thematic linguistic analysis
+• Explainable TTS narration generation
+
+WHY THIS NOTEBOOK EXISTS:
+Braille decoding errors often propagate into sentence-level ambiguity. This notebook investigates whether NLP-based correction and transformer refinement can recover semantically coherent outputs from imperfect detections.
+
+STATUS:
+Refined NLP and sentence reconstruction stage.
+
+PIPELINE ROLE:
+Bridges raw Braille detections with semantically corrected language outputs.

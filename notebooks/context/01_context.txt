@@ -1,0 +1,21 @@
+FOUNDATIONAL BRAILLE DETECTION & EVALUATION PIPELINE
+
+PURPOSE:
+This notebook establishes the foundational Braille recognition framework used throughout the project.
+
+MAIN CONTRIBUTIONS:
+• Custom 6-dot Braille mapping dictionary
+• Adaptive row clustering and sentence reconstruction
+• Dot-level accuracy tracking and uncertainty estimation
+• Ground-truth evaluation framework
+• Cognitive/thematic content analysis
+• TTS-assisted explainability generation
+
+WHY THIS NOTEBOOK EXISTS:
+Traditional OCR pipelines are poorly suited for Braille due to spatial dot dependencies and irregular layouts. This notebook explores foundational methods for reconstructing Braille structure while preserving spatial interpretability.
+
+STATUS:
+Baseline implementation and early research foundation.
+
+PIPELINE ROLE:
+Acts as the initial detection and reconstruction stage before advanced grid alignment and explainability refinement.
